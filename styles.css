@@ -1,6 +1,5 @@
 html {
     height: 100%;
-    width: 1024px;
 }
 
 body {
@@ -8,7 +7,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #333;
-    width: 1012px;
+    width: 992px;
     margin: 0 auto;
 }
 
@@ -20,7 +19,7 @@ body {
 
 .page-content {
     min-height: 100%;
-    margin-bottom: -3em;
+    margin-bottom: -4em;
 }
 
 .page-footer {
@@ -30,7 +29,7 @@ body {
 
 .main-column {
     display: block;
-    width: 657px;
+    width: 652px;
     padding: 0 10px 0 0;
     float: left;
 }
@@ -38,13 +37,13 @@ body {
 .section {
     display: block;
     float: left;
-    width: 320px;
+    width: 318px;
     margin-right: 8px;
 }
 
 .right-column {
     display: block;
-    width: 323px;
+    width: 320px;
     padding: 0 0 0 10px;
     float: left;
 }
@@ -77,4 +76,11 @@ ul {
 li {
     line-height: 1em;
     margin: .25em 0;
+}
+
+.banner {
+    height: 258px;
+    background-image: url(banner.jpg);
+    background-size: cover;
+    margin-bottom: 10px;
 }
